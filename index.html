@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.png" type="image/icon type"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="start">
+        <h1>Rock Paper and Scissors</h1>
+        <button class="play-button">Play Game</button>
+    </div>
+    <div class="rules">
+        <i class="fas fa-bars fa-3x"></i>
+    </div>
+    <div class="rules-close">
+        <i class="fas fa-times fa-3x"></i>
+    </div>
+    <div class="end">
+        <div class="h1-text"></div>
+        <button class="replay-button">Replay</button>
+    </div>
+    <div class="container">
+        <div class="rounds">Rounds: <span>0</span></div>
+        <div class="tablo">
+            <div class="player-score">Player: <span>0</span></div>
+            <div class="ties">Ties: <span>0</span></div>
+            <div class="computer-score">Computer: <span>0</span></div>
+        </div>
+        <h2 class="result"></h2>
+        <div class="game">
+            <img class="player-hand" src="./images/rock.png" alt="p" />
+            <img class="computer-hand" src="./images/scissors.png" alt="c" />
+        </div>
+        <div class="options">
+            <button class="rock">rock</button>
+            <button class="paper">paper</button>
+            <button class="scissors">scissors</button>
+        </div>
+    </div>
+    <div class="rules-slider">
+        <h1 class="title">THE OFFICIAL RULES OF ROCK PAPER SCISSORS</h1>
+        <h3>Why is Rock Paper Scissors played?</h3>
+        <p>This game is played by children and adults and is popular all over the world. Apart from being a game played to pass time, the game is usually played in situations where something has to be chosen. It is similar in that way to other games like flipping the coin, throwing dice or drawing straws. There is no room for cheating or for knowing what the other person is going to do so the results are usually very satisfying with no room for fighting or error.</p>
+        <h3>What are the rules of RPS?</h3>
+        <p>Although the game has a lot of complexity to it, the rules to play it are pretty simple.
+        The game is played where players deliver hand signals that will represent the elements of the game; rock, paper and scissors. The outcome of the game is determined by 3 simple rules:</p>
+        <li>Rock wins against scissors.</li>
+        <li>Scissors win against paper.</li>
+        <li>Paper wins against rock.</li>
+        <h3>The Hand Signals</h3>
+        <p>In order to ensure fair play, the game signals have been agreed upon to ensure the uniformity of delivery every single time. This ensures that there will be no room for error and these signals have been approved for all types of recreational and professional play.
+        the proper opening move will impact the overall success of the game. This means that special attention should be given to the way you move your hand initially before you attempt to make any signal so that other players are not aware of your intention. When you succeed to do so, you ensure that other players will not be able to make a signal that beats yours, at least not on purpose.</p>
+        <h3>The Rock</h3>
+        <div class="center">
+            <img src="images/rock.png" width="50px">
+        </div>
+        <p>The rock is internationally recognized by a closed fist where the thumb is not concealed. It is also one of the most popular opening moves and this is why it is considered to be one of the most popular hand signals. Most players will view using the rock as an opening move to be somehow aggressive but would still use it because it is easy. The rock will beat scissors every time but will be beaten by paper.</p>
+        <h3>The Paper</h3>
+        <div class="center">
+            <img src="images/paper.png" width="50px">
+        </div>
+        <p>Paper is delivered in the same way as the rock except that in this case all the fingers and the thumb are extended in a way that they all face the same direction. The vertical paper or the handshake is strictly forbidden in tournaments of Rock Paper Scissors because it might resemble the scissors which can lead to unnecessary confusion. Paper is one of the most challenging opening moves because there is no indication of what you intend to do next. As a result, many players will be concerned when you use it as an opening move to your game. Paper will beat rock but will be beaten by scissors in no time</p>
+        <h3>The Scissors</h3>
+        <div class="center">
+            <img src="images/scissors.png" width="50px">
+        </div>
+        <p>Scissors are thrown in the same way as rock where the hand is clenched into a fist but the index and the middle finger are extended to the front in order to make an angle that is of 30 to 45 degrees in a way that would resemble a pair of scissors. The use of horizontal scissors is strictly forbidden in tournaments because they can resemble the shape of paper. Opening with scissors is not a very smart move because your opponent will be able to guess what your signal is going to be easily and so will be able to come up with a stronger signal.</p>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
